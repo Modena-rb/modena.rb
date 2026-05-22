@@ -10,7 +10,7 @@ layout: default
   {% else %}
     <ol class="post-list" reversed>
       {% for post in site.posts %}
-      <li class="post-item" style="animation-delay: {{ forloop.index | times: 80 }}ms">
+      <li class="post-item{% if post.image %} has-image{% endif %}" style="animation-delay: {{ forloop.index | times: 80 }}ms">
         <div class="post-num">
           {%- assign n = forloop.rindex -%}
           {%- if n < 10 %}0{{ n }}{%- else %}{{ n }}{%- endif -%}
@@ -31,6 +31,11 @@ layout: default
             <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
           {% endif %}
         </div>
+        {% if post.image %}
+        <a class="post-thumb-link" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          <img class="post-thumb" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}">
+        </a>
+        {% endif %}
       </li>
       {% endfor %}
     </ol>
