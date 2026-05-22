@@ -21,4 +21,5 @@ jobs:
           script: |
             cd /var/workspace/modena.rb
             git pull
+            git lfs pull
             docker compose up -d --build
