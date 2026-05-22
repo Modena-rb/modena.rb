@@ -7,7 +7,7 @@ services:
       - .:/site
       - bundle_cache:/usr/local/bundle
     environment:
-      - JEKYLL_ENV=development
+      - JEKYLL_ENV=${JEKYLL_ENV:-development}
 
 volumes:
   bundle_cache:
