@@ -14,4 +14,4 @@ Ogni serata viene documentata in questo blog.
 
 ## Come partecipare
 
-Seguici su [GitHub](https://github.com/modenarb) per aggiornamenti sui prossimi incontri.
+Unisciti al nostro [gruppo Telegram](https://t.me/+VoU7xn2Pqus2NDRk) per aggiornamenti sui prossimi incontri.
