@@ -1,0 +1,553 @@
+---
+---
+
+/* ─── VARIABLES ─────────────────────────────────────────── */
+:root {
+  --bg:        #0c0b09;
+  --bg-2:      #131109;
+  --bg-3:      #1a1810;
+  --border:    #2c2618;
+  --border-2:  #1e1b12;
+  --text:      #edeae0;
+  --text-2:    #c8bfb0;
+  --text-3:    #9a9080;
+  --ruby:      #cc342d;
+  --ruby-dim:  #7a1e1a;
+  --ruby-glow: rgba(204, 52, 45, 0.12);
+  --gold:      #c4973a;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-mono:  'IBM Plex Mono', 'Courier New', monospace;
+  --max-w: 1100px;
+  --pad: clamp(1.25rem, 5vw, 3rem);
+}
+
+/* ─── RESET ──────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* ─── BASE ───────────────────────────────────────────────── */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.8;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* grain overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover { color: var(--ruby); }
+
+img { max-width: 100%; }
+
+/* ─── ANIMATIONS ─────────────────────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* ─── HEADER ─────────────────────────────────────────────── */
+.site-header {
+  animation: fadeUp 0.5s ease both;
+}
+
+.header-inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: calc(var(--max-w) + var(--pad) * 2);
+  margin: 0 auto;
+  padding: var(--pad) var(--pad) 1.5rem;
+}
+
+.site-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  text-decoration: none;
+}
+
+.brand-name {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 5.5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  color: var(--text);
+  transition: color 0.25s;
+}
+
+.brand-dot {
+  color: var(--ruby);
+}
+
+.site-brand:hover .brand-name {
+  color: var(--text);
+}
+
+.brand-sub {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 300;
+  color: var(--text-3);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+  padding-bottom: 0.15rem;
+}
+
+.site-nav a {
+  font-size: 0.82rem;
+  color: var(--text-2);
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  position: relative;
+}
+
+.site-nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--ruby);
+  transition: width 0.25s ease;
+}
+
+.site-nav a:hover {
+  color: var(--text);
+}
+
+.site-nav a:hover::after {
+  width: 100%;
+}
+
+.header-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    var(--ruby) 0%,
+    var(--ruby-dim) 35%,
+    var(--border) 70%,
+    transparent 100%
+  );
+  transform-origin: left;
+  animation: slideIn 0.8s 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ─── MAIN ───────────────────────────────────────────────── */
+.site-main {
+  max-width: calc(var(--max-w) + var(--pad) * 2);
+  margin: 0 auto;
+  padding: 3rem var(--pad) 5rem;
+}
+
+/* ─── HOME ───────────────────────────────────────────────── */
+.home-kicker {
+  font-size: 0.72rem;
+  color: var(--text-3);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  animation: fadeUp 0.4s 0.1s ease both;
+}
+
+.home-kicker::after {
+  content: '';
+  display: block;
+  width: 1.75rem;
+  height: 1px;
+  background: var(--ruby);
+  margin-top: 0.6rem;
+}
+
+.empty-state {
+  color: var(--text-3);
+  font-style: italic;
+}
+
+/* ─── POST LIST ──────────────────────────────────────────── */
+.post-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-item {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 0 2rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--border-2);
+  animation: fadeUp 0.5s ease both;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  cursor: default;
+}
+
+.post-item:first-child {
+  border-top: 1px solid var(--border-2);
+}
+
+.post-item:hover .post-num {
+  color: var(--ruby);
+  opacity: 1;
+}
+
+.post-item:hover .post-title-link {
+  color: var(--ruby);
+}
+
+.post-num {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--text-3);
+  opacity: 0.6;
+  line-height: 1;
+  padding-top: 0.4rem;
+  transition: color 0.2s ease, opacity 0.2s ease;
+  user-select: none;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.45rem;
+}
+
+.post-date {
+  font-size: 0.78rem;
+  color: var(--text-3);
+  letter-spacing: 0.1em;
+}
+
+.post-cat {
+  font-size: 0.68rem;
+  color: var(--ruby-dim);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--ruby-dim);
+  padding: 0.1em 0.5em;
+  border-radius: 1px;
+}
+
+.post-title-link {
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 3vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.15;
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--text);
+  transition: color 0.2s ease;
+}
+
+.post-excerpt {
+  font-size: 0.92rem;
+  color: var(--text-2);
+  line-height: 1.65;
+  max-width: 52ch;
+  font-weight: 300;
+}
+
+/* ─── POST PAGE ──────────────────────────────────────────── */
+.post-page {
+  animation: fadeUp 0.5s 0.1s ease both;
+  max-width: 72ch;
+}
+
+.post-kicker {
+  font-size: 0.72rem;
+  color: var(--ruby);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.post-page .post-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 5vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.post-date-display {
+  font-size: 0.82rem;
+  color: var(--text-3);
+  letter-spacing: 0.1em;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* post content typography */
+.post-content h2 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2.5rem 0 0.75rem;
+  color: var(--text);
+}
+
+.post-content h3 {
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: var(--ruby);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 2rem 0 0.6rem;
+}
+
+.post-content p {
+  margin-bottom: 1.25rem;
+  color: var(--text-2);
+  line-height: 1.8;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 0.75rem 0 1.25rem 1.5rem;
+  color: var(--text-2);
+}
+
+.post-content li {
+  margin-bottom: 0.35rem;
+  padding-left: 0.25rem;
+}
+
+.post-content a {
+  color: var(--ruby);
+  text-decoration: underline;
+  text-decoration-color: var(--ruby-dim);
+  text-underline-offset: 3px;
+}
+
+.post-content a:hover {
+  color: var(--gold);
+  text-decoration-color: var(--gold);
+}
+
+.post-content code {
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  background: var(--bg-3);
+  color: var(--gold);
+  padding: 0.15em 0.45em;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+}
+
+.post-content pre {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--ruby);
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin: 1.75rem 0;
+  border-radius: 0 2px 2px 0;
+}
+
+.post-content pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--text-2);
+  font-size: 0.83rem;
+}
+
+.post-content blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--text-3);
+  font-style: italic;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+}
+
+.post-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--text-2);
+  letter-spacing: 0.06em;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-2);
+  transition: color 0.2s ease;
+}
+
+.post-back:hover {
+  color: var(--ruby);
+}
+
+/* ─── PAGE (about, etc) ──────────────────────────────────── */
+.page-content {
+  max-width: 65ch;
+  animation: fadeUp 0.5s 0.1s ease both;
+}
+
+.page-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-content p {
+  color: var(--text-2);
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.page-content h2 {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--ruby);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 2.5rem 0 0.75rem;
+}
+
+.page-content a {
+  color: var(--ruby);
+  text-decoration: underline;
+  text-decoration-color: var(--ruby-dim);
+  text-underline-offset: 3px;
+}
+
+.page-content a:hover {
+  color: var(--gold);
+}
+
+/* ─── FOOTER ─────────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border-2);
+  padding: 1.75rem var(--pad);
+}
+
+.footer-inner {
+  max-width: calc(var(--max-w) + var(--pad) * 2);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-copy,
+.footer-made {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+}
+
+.ruby-gem {
+  color: var(--ruby);
+  font-style: normal;
+}
+
+/* ─── 404 ────────────────────────────────────────────────── */
+.error-page {
+  text-align: center;
+  padding: 4rem 0;
+  animation: fadeUp 0.5s ease both;
+}
+
+.error-page h1 {
+  font-size: clamp(4rem, 12vw, 8rem);
+  color: var(--ruby);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.error-page p {
+  color: var(--text-2);
+  margin-bottom: 2rem;
+}
+
+/* ─── RESPONSIVE ─────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .post-item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .post-num {
+    font-size: 1.4rem;
+    padding-top: 0;
+  }
+}

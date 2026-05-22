@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="post-page">
+  <header class="post-header">
+    <p class="post-kicker">
+      {%- assign idx = 0 -%}
+      {%- for p in site.posts reversed -%}
+        {%- assign idx = idx | plus: 1 -%}
+        {%- if p.url == page.url -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+      serata n.&nbsp;{% if idx < 10 %}0{{ idx }}{% else %}{{ idx }}{% endif %}
+      {% if page.categories.size > 0 %}&nbsp;&middot;&nbsp;{{ page.categories | first }}{% endif %}
+    </p>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-date-display">
+      {{ page.date | date: "%d %B %Y" | downcase }}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <a class="post-back" href="{{ '/' | relative_url }}">&larr; tutte le serate</a>
+</article>

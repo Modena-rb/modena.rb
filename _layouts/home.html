@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+  <p class="home-kicker">serate / incontri</p>
+
+  {% if site.posts.size == 0 %}
+    <p class="empty-state">Nessuna serata ancora documentata.</p>
+  {% else %}
+    <ol class="post-list" reversed>
+      {% for post in site.posts %}
+      <li class="post-item" style="animation-delay: {{ forloop.index | times: 80 }}ms">
+        <div class="post-num">
+          {%- assign n = forloop.rindex -%}
+          {%- if n < 10 %}0{{ n }}{%- else %}{{ n }}{%- endif -%}
+        </div>
+        <div class="post-body">
+          <div class="post-meta">
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%d.%m.%Y" }}
+            </time>
+            {% if post.categories.size > 0 %}
+              <span class="post-cat">{{ post.categories | first }}</span>
+            {% endif %}
+          </div>
+          <h2 class="post-title">
+            <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+          {% if post.excerpt %}
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  {% endif %}
+
+  {{ content }}
+</div>
