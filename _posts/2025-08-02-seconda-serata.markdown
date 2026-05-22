@@ -3,7 +3,7 @@ layout: post
 title: "Avventura ai Lidi Ferraresi"
 date: 2025-08-02
 categories: trasferta
-image: /assets/img/lidi-ferraresi.jpg
+image: /assets/img/lidi-ferraresi.webp
 ---
 
 Per il secondo incontro abbiamo deciso di intraprendere una piccola avventura: siamo partiti da Modena, fino ad arrivare

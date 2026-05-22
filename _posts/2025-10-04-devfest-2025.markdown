@@ -3,7 +3,7 @@ layout: post
 title: "DevFest Modena 2025"
 date: 2025-10-04
 categories: esterno
-image: /assets/img/devfest-2025.jpg
+image: /assets/img/devfest-2025.webp
 ---
 
 Sfruttando l'occasione del [DevFest 2025 a Modena](https://devfest.modena.it/2025/) abbiamo organizzato un piccolo
@@ -24,6 +24,6 @@ nei partecipanti.
 ## Foto
 
 <div class="post-gallery">
-  <img src="/assets/img/devfest-2025-stand.jpg" alt="Lo stand di Modena.rb al DevFest 2025">
-  <img src="/assets/img/devfest-2025-stand-public.jpg" alt="Il pubblico allo stand al DevFest 2025">
+  <img src="/assets/img/devfest-2025-stand.webp" alt="Lo stand di Modena.rb al DevFest 2025">
+  <img src="/assets/img/devfest-2025-stand-public.webp" alt="Il pubblico allo stand al DevFest 2025">
 </div>

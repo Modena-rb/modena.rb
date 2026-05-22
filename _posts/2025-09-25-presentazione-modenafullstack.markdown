@@ -3,7 +3,7 @@ layout: post
 title: "Presentazione a Modena Full Stack"
 date: 2025-09-25
 categories: esterno
-image: /assets/img/modena-fullstack.jpg
+image: /assets/img/modena-fullstack.webp
 ---
 
 Questo giorno siamo stati ospiti di un altro meetup locale:

@@ -3,7 +3,7 @@ layout: post
 title: "Incontro al Doppio Malto"
 date: 2025-08-02
 categories: meetup
-image: /assets/img/doppio-malto.jpg
+image: /assets/img/doppio-malto.webp
 ---
 
 Terzo incontro che torna nella nostra città, con un piccolo meetup informale al
