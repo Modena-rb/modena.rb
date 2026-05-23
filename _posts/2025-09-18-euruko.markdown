@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Euruko 2025"
+date: 2025-09-18
+categories: esterno
+image: /assets/img/euruko-2025.webp
+---
+
+Grande avventura in Portogallo per i nostri valorosi [Riccardo Carlesso](https://www.linkedin.com/in/riccardocarlesso),
+[Emiliano](https://www.linkedin.com/in/emilianodellacasa/) ed [Elia](https://gimbaro.dev). Ospiti a [Euruko 2025](https://2025.euruko.org),
+hanno portato in alto la bandiera di Modena.rb, facendo nuove conoscenze e ritrovando vecchi amici.
+Emiliano ha fatto un [bellissimo talk](https://www.rubyevents.org/talks/grpc-on-ruby-on-rails-a-perfect-match?back_to=%2Fprofiles%2Femilianodellacasa&back_to_title=Emiliano+Della+Casa)
+su gRPC in Rails, mentre Elia e Riccardo hanno portato due lightning talks (rispettivamente,
+[Conditional Organizers](https://www.rubyevents.org/talks/lightning-talk-conditional-organizer?back_to=%2Fevents%2Feuruko-2025%2Ftalks%3Fscroll_top%3D3614&back_to_title=EuRuKo+2025)
+e
+[Rubycon](https://www.rubyevents.org/talks/lightning-talk-rubycon-italy?back_to=%2Fevents%2Feuruko-2025%2Ftalks%3Fscroll_top%3D5165&back_to_title=EuRuKo+2025)).
+
+Come di consuetudine, alla fine di Euruko, si svolgono i pitch per decidere, tramite votazione, dove organizzare l'edizione
+dell'anno successivo. Con la vittoria di [Brno](https://2026.euruko.org), ai nostri 3 eroi viene il desiderio di pitchare
+l'anno successivo, provando a portare Euruko a Modena. Un sogno.
+
+## Di cosa abbiamo parlato
+
+- gRPC, Organizers, ruby_llm, picoRuby... e tanto altro
+- Rubycon
+- [Francesinha](https://it.wikipedia.org/wiki/Francesinha)
+
+## Partecipanti
+
+Tutta Euruko, ben 580 partecipanti
+
+## Foto
+
+<div class="post-gallery">
+  <img src="/assets/img/emiliano-euruko.webp" alt="Emiliano durante il suo talk ad Euruko">
+</div>

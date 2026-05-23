@@ -8,12 +8,11 @@ image: /assets/img/devfest-2025.webp
 
 Sfruttando l'occasione del [DevFest 2025 a Modena](https://devfest.modena.it/2025/) abbiamo organizzato un piccolo
 banchetto, per mostrare le magie di ruby. Infatti, oltre ai fantastici swag che abbiamo offerto, c'era una piccola prova
-per i partecipanti: [codice ruby di cui c'è da scoprire l'output](https://gist.github.com/Gimbardo/f2e3186133ddd63612c41f2a77a4afb1), e chi ci riusciva cosa vinceva? Ovviamente un fantastico
-Rubino Stampato in 3D.
+per i partecipanti: [codice ruby di cui c'è da scoprire l'output](https://gist.github.com/Gimbardo/f2e3186133ddd63612c41f2a77a4afb1), e come premio per chi ci riusciva? Un fantastico Rubino Stampato in 3D.
 
 ## Di cosa abbiamo parlato
 
-- [Framework](frame.work)
+- [Framework](https://frame.work)
 - Ruby e Code Quality
 
 ## Partecipanti

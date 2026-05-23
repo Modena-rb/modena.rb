@@ -3,10 +3,10 @@ layout: post
 title: "Presentazione a Modena Full Stack"
 date: 2025-09-25
 categories: esterno
-image: /assets/img/modena-fullstack.webp
+image: /assets/img/emiliano-fullstack.webp
 ---
 
-Questo giorno siamo stati ospiti di un altro meetup locale:
+In questa occasione siamo stati ospiti di un altro meetup locale:
 [Modena Full Stack](https://www.meetup.com/it-it/modena-full-stack/), che ci ha chiesto di parlare dei
 nostri progetti. [Emiliano](https://www.linkedin.com/in/emilianodellacasa/) (in foto) ed [Elia](https://gimbaro.dev) hanno avuto
 il piacere di presentare Modena.rb e [Rubycon](https://rubycon.it). Abbiamo anche avuto il piacere di ringraziare
@@ -21,3 +21,9 @@ rubini di varie dimensioni.
 ## Partecipanti
 
 Emiliano, Elia, e un ampio gruppo di curiosi dal gruppo Modena Full Stack
+
+## Foto
+
+<div class="post-gallery">
+  <img src="/assets/img/elia-fullstack.webp" alt="Elia durante il talk">
+</div>

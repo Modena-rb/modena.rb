@@ -14,8 +14,8 @@ al Lidi Ferraresi, per incontrare un nuovo amico, con un grande sogno:
 
 - Stampa 3D, grazie ad un Rubino Su Rotaie stampato
 - AI e Ruby, e il loro utilizzo dentro Google, grazie agli insight di Riccardo
-- Un sogno nel cassetto: rifare il [ruby day](2024.rubyday.it) dato che Grusp ha abbandonato il progetto
+- Un sogno nel cassetto: rifare il [ruby day](https://2024.rubyday.it) dato che Grusp ha abbandonato il progetto
 
 ## Partecipanti
 
-5 coraggiosi eroi, che sono partiti all'avventura
+5 coraggiosi eroi che sono partiti all'avventura

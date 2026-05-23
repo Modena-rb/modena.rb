@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Vinoteca Modena"
+date: 2025-10-22
+categories: meetup
+image: /assets/img/vinoteca.webp
+---
+
+Piccolo meetup più intimo, con partecipanti abbracciati dalla [Vinoteca Modena](https://www.vinotecamodena.it/). È stata
+una serata tranquilla, che ci ha concesso di parlare dei mille progetti che ci portiamo dietro.
+
+## Di cosa abbiamo parlato
+
+- [Rubycon](https://rubycon.it) che, passando il tempo, sta diventando qualcosa di concreto
+- Swag, tra rubini, maglie e spillette
+- [Advent of Code](https://adventofcode.com) che si avvicina
+
+## Partecipanti
+
+4 calorosi rubysti
+
