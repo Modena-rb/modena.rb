@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Modena.rb e' un meetup dedicato al linguaggio di programmazione Ruby, con incontri periodici nella citta' di Modena.
+Modena.rb è un meetup dedicato al linguaggio di programmazione Ruby, con incontri periodici-mensili nella città di Modena.
 
-Parliamo di Ruby, Rails, gem, pattern, best practice e tutto cio' che ruota attorno all'ecosistema Ruby.
+Parliamo di Ruby, Rails, best practice e tutto ciò che ruota attorno all'ecosistema Ruby, inoltre partecipiamo come
+gruppo ad altri eventi, sempre legati al mondo della programmazione.
 
-Gli incontri sono aperti a tutti: principianti, esperti, curiosi.
+Gli incontri sono aperti a tutti: principianti, esperti, o anche solo curiosi.
 
-Ogni serata viene documentata in questo blog.
+Ogni serata cerchiamo di avere uno speaker, e il tutto viene documentato in questo blog, tramite un piccolo articolo a riguardo.
 
 ## Come partecipare
 
