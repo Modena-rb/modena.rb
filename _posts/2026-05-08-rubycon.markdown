@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Rubycon - Alea Iacta REST"
+date: 2026-05-08
+categories: esterno
+image: /assets/img/rubycon.webp
+---
+
+
+## Di cosa abbiamo parlato
+
+## Partecipanti
+

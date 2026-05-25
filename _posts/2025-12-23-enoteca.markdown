@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Vinoteca Modena 2"
+date: 2025-12-23
+categories: meetup
+image: /assets/img/enoteca.webp
+---
+
+
+## Di cosa abbiamo parlato
+
+## Partecipanti
+

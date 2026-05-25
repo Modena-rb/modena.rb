@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Soldoni agli uffici Engim - by Gamberi Elia"
+date: 2026-01-28
+categories: meetup
+image: /assets/img/elia-rubino.webp
+---
+
+
+
+## Di cosa abbiamo parlato
+
+
+## Partecipanti
+
+
+## Foto
+
+<div class="post-gallery">
+  <img src="/assets/img/alberto-engim.webp" alt="Alberto mostra di cosa si occupa Engim Srl">
+  <img src="/assets/img/elia-soldoni.webp" alt="Elia presenta Soldoni">
+</div>
