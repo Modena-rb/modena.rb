@@ -6,8 +6,40 @@ categories: esterno
 image: /assets/img/rubycon.webp
 ---
 
+Tutto è cominciato nell'agosto del 2025, ai Lidi Ferraresi, con
+[Riccardo Carlesso](https://www.linkedin.com/in/riccardocarlesso)
+che ci ha messo in testa un'idea: rifare il RubyDay, abbandonato da Grusp.
+Nove mesi dopo, quell'idea era realtà.
+
+L'8 maggio 2026, all'Hotel Ambasciatori di Rimini, si è tenuta la prima
+edizione di [RubyCon](https://rubycon.it) - **Alea Iacta REST**.
+Il nome non è casuale: il Rubicone passa a pochi chilometri da Rimini, e
+il gioco di parole con REST e Ruby, ideato da Riccardo stesso, era troppo
+bello per lasciarlo perdere.
+
+Io ed [Emiliano](https://github.com/emilianodellacasa) abbiamo fatto da
+co-organizer dell'evento, insieme al resto del team. Organizzare è stata
+un'esperienza faticosa, mesi di lavoro, decisioni, imprevisti, ma il
+giorno dell'evento, vedere tutto funzionare esattamente come ci eravamo
+aspettati, ha fatto un certo effetto. Ci teniamo a ringraziare ogni organizzatore:
+per ognuno di loro esiste un blog post [qui](https://rubycon.it/articles/).
+
+Il formato era semplice: **single track, 8 talk**, speaker scelti per
+quello che avevano da dire. Sul palco: André Arko, Akira Matsuda,
+Silvano Stralla, Carmine Paolino, Julia López, Marco Roth, Yara Debian e
+Michele Franzin. Circa 200 persone in sala, metà italiane e metà internazionali.
+
+A fare da MC, vestito da centurione, Riccardo - lo stesso che aveva seminato l'idea
+mesi prima davanti a una birra ai Lidi.
+
+La serata si è chiusa con una cena sulla spiaggia, walking buffet con
+vista mare. Il modo giusto per finire una giornata così.
 
 ## Di cosa abbiamo parlato
 
+La schedule completa è disponibile su [rubycon.it/schedule](https://rubycon.it/schedule).
+
 ## Partecipanti
 
+~200 rubysti da tutta Europa, e due organizzatori di Modena.rb finalmente
+seduti in platea.
