@@ -32,7 +32,7 @@ Due facce della stessa medaglia, messe sul tavolo senza troppi giri di parole.
 
 Il talk si è chiuso su una domanda di fondamentale importanza: **se il codice lo scrive l'agente, come fa uno sviluppatore
 junior a costruirsi la conoscenza necessaria per crescere?** Giovanni non ha dato una risposta consolatoria, ma un punto
-fermo:la responsabilità, in ogni caso, resta dello sviluppatore.
+fermo: la responsabilità, in ogni caso, resta dello sviluppatore.
 
 Dopo un talk così, ci è venuto un certo languorino, quindi siamo tornati al [ristorante Wàng](https://maps.app.goo.gl/qpKjwXYBzypwgkjv7)
 (ormai siamo clienti fidati, anche se ancora non ci pagano per la pubblicità) dove abbiamo continuato a chiacchierare,
@@ -40,7 +40,7 @@ tra opinioni personali e discorsi che si sono fatti via via più interessanti.
 
 ## Di cosa abbiamo parlato
 
-- AI
+- AI & Good Pratices
 - Rails e il suo essere Opinionated
 - Futuro dello Sviluppo Software
 
