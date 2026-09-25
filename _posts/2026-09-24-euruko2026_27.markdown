@@ -1,0 +1,35 @@
+---
+layout: post
+title: "From Euruko 2026 to Euruko 2027 - by Emiliano della Casa"
+date: 2026-09-24
+categories: meetup
+image: /assets/img/emiliano-announces-euruko2027.webp
+---
+
+In questo meetup di fine settembre, svolto negli uffici di [Engim Srl](https://engim.eu), riaccogliamo in patria
+[Emiliano](https://www.linkedin.com/in/emilianodellacasa/), a seguito del suo viaggio a Brno, in Repubblica Ceca, per
+[Euruko 2026](https://2026.euruko.org/). E proprio questo è il primo tema che ci porta Emiliano: un resoconto di tutto
+quello di interessante che ha visto alla conferenza, in particolare [Doom on Ruby](https://2026.euruko.org/speaker-chris.html), 
+[JRuby](https://2026.euruko.org/speaker-charlie.html) e il sempreverde [RubyLLM](https://2026.euruko.org/speaker-carmine.html).
+Il grande annuncio arriva poco dopo: *Euruko 2027 si farà a Modena*, grazie a un pitch vincente a base di cibo, motori e
+cultura. Abbiamo poi discusso delle incognite (ancora tante) per l'organizzazione, ma grazie all'esperienza maturata con
+il Rubycon, possiamo sicuramente portare una bellissima conferenza in questa splendida città, che accoglie il nostro meetup
+da più di un anno, oltre che una fiorente comunità di rubysti. Infine c'è stato qualche piccolo spoiler per i prossimi
+meetup, che porteranno ospiti di un certo livello a parlare ai nostri microfoni.
+
+Finito il talk abbiamo continuato a discutere, sia negli uffici Engim che al [giustospirito](https://www.giusto-spirito.com),
+dove tra chiacchiere e birra abbiamo concluso la serata in compagnia.
+
+
+## Di cosa abbiamo parlato
+
+- Euruko 2026 e 2027
+- Prossimi meetup
+- Rails World e il keynote di DHH
+
+## Foto
+
+<div class="post-gallery">
+  <img src="/assets/img/outside-giustospirito.webp" alt="Foto di rito fuori dal giustospirito">
+
+</div>
