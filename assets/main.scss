@@ -571,9 +571,13 @@ img { max-width: 100%; }
 
   img {
     width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &:has(img + img) img {
     height: 28rem;
     object-fit: cover;
-    display: block;
   }
 }
 
